@@ -4,7 +4,7 @@ int main()
 	int decimal, binary[100], i, j;
 	printf("Enter Decimal Number: ");
 	scanf("%d", &decimal);
-	if(decimel == 0)
+	if(decimal == 0)
 	{
 		printf("Binary Number Is: 0");
 	}else{
