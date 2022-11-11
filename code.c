@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int decimel, binary[100], i, j;
-	printf("Enter Decimel Number: ");
-	scanf("%d", &decimel);
+	int decimal, binary[100], i, j;
+	printf("Enter Decimal Number: ");
+	scanf("%d", &decimal);
 	if(decimel == 0)
 	{
 		printf("Binary Number Is: 0");
 	}else{
-		for(i = 0; decimel>0; i++)
+		for(i = 0; decimal>0; i++)
 		{
-			binary[i] = decimel % 2;
-			decimel = decimel / 2;
+			binary[i] = decimal % 2;
+			decimal = decimal / 2;
 		}
 		printf("Binary Number Is: ");
 	}
